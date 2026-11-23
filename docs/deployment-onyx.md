@@ -25,3 +25,12 @@
   - mAzAY1Xjbyde/z1ecAhIgdoUTasgyz3ufxh5Ynw3zas=
   - DfSH6KEyUC7HTsDeXdSipGBYUPT/FqMcEk2T4yYUm4c=
 - SetOnlineWindowMinutes 10080 (7 days, the maximum): oHxP5FT67pg7XFdG1/cwkwwZPGGVHwr6Ydy9GL2ZjkI=
+
+## Demo-video prep (2026-11-23, ~6:55 PM ET)
+- Heartbeat 1 parked in garage, SoC 81%, plugged in: j1saslmpaKbQxvkB/XK2V/VeTPUqAdr1y6XH6IIDzBo=
+- Heartbeat 2 GPU 37C, idle: KGOmrAByGQ62Q4yk4nOrWOYZWbL0oND9d7dr1T0Yw1M=
+- Heartbeat 3 solar 2.4kW, 3% load: y7nrVKi7c7Iqv2dLXzdYmrgKLXF1wl0qgQlC/C0TKHU=
+- Heartbeat 4 GPU 40C: axFHOFQpo+zEMmxB27xe5nb9ImbUYoH3REc9oSP/PlA=
+- SetAvailability 1 available: Pv40REnbwdLQwRVJbf45rufGs6UgDrJ429RkY2/WaT0=
+- RecordJob 1 llama-3.3-70b inference 60: L9sZ21NwexwRJs8hZRD/VjPzfZW0U9UXT/3YpgFnL1o=
+- DistributeBonus: Zl+OCwglgHhFMRfUnpLg00+EiYbBDQ54YJ5W/WceR+Y=

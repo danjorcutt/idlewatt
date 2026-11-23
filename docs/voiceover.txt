@@ -1,0 +1,27 @@
+IdleWatt demo video: narration script
+
+Matches /workspace/idlewatt-media/idlewatt-demo.mp4 (79.3 s). The shipped file has a synthetic offline TTS voice (Piper, en_US lessac); record your own narration over it if you prefer. Each line starts about 0.35 s into its segment.
+
+[0:00.0–0:08.3] Title card
+My truck sits in the driveway most of the day. So does the gaming PC. That's a lot of idle compute, and idle energy.
+
+[0:08.3–0:21.7] Home: disclaimer + network stats
+IdleWatt is a Gno realm on gno.land: a public registry and dashboard for idle compute nodes. Everything you'll see is simulated, with no Tesla or Akash integration yet. It's the coordination layer, built first.
+
+[0:21.7–0:34.0] Node cards
+Home GPUs, a solar-powered CPU box, and a simulated Cybertruck. Each node lists its hardware, region, power source (grid, solar or Powershare backup) and an hourly rate.
+
+[0:34.0–0:40.6] Register form + generated gnokey command
+Anyone can register a node right from the page. The form builds the gnokey transaction, ready to sign.
+
+[0:40.6–0:49.0] Node page + signed heartbeat / parked tx
+Nodes prove they're alive with signed heartbeats and switch between parked-and-plugged-in and driving. Only the operator's key can do that.
+
+[0:49.0–0:55.7] Simulated job tx + updated node page
+Jobs are logged with a length. The realm computes the earnings from the rate, so nobody can just type in a number.
+
+[0:55.7–1:08.4] Fairness pool + leaderboard
+Fourteen percent of every job goes into a fairness pool, inspired by AtomOne's Nakamoto Bonus. It's split equally across every online node, so the little CPU box gets the same share as the 4090.
+
+[1:08.4–1:19.3] GitHub roadmap + end card
+Next up: Akash provider attestation and payouts over the Gno-Solana bridge. The code and the live realm are linked on screen. Thanks!
