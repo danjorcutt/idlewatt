@@ -3,7 +3,7 @@
 # the deploying key's own g1 address (or a namespace that key has registered).
 set -euo pipefail
 cd "$(dirname "$0")"; . ./env.sh
-: "${DEPLOY_GAS_WANTED:=60000000}"
+: "${DEPLOY_GAS_WANTED:=120000000}"
 : "${MAX_DEPOSIT:=}"
 extra=()
 [ -n "$MAX_DEPOSIT" ] && extra+=(-max-deposit "$MAX_DEPOSIT")
