@@ -1,0 +1,16 @@
+# Keys and secrets: never commit
+*.mnemonic
+mnemonic*.txt
+*password*.txt
+*.key
+*.pem
+*.info
+keys/
+.gno/
+.env
+.env.*
+# gnokey tx files
+*.tx
+# local tooling
+.DS_Store
+*.log
