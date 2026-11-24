@@ -1,27 +1,28 @@
 IdleWatt demo video: narration script
 
-Matches /workspace/idlewatt-media/idlewatt-demo.mp4 (81.9 s). The shipped file has a synthetic offline TTS voice (Piper, en_US lessac); record your own narration over it if you prefer. Each line starts about 0.35 s into its segment.
+Matches /workspace/idlewatt-media/idlewatt-demo.mp4 (80.6 s). The shipped file has a synthetic offline TTS voice (Piper, en_US lessac); record your own narration over it if you prefer. Each line starts about 0.35 s into its segment.
+Pronunciation: Gno is said like "no" (silent G, as in gnome); gno.land is "no land".
 
-[0:00.0–0:08.0] Title card
+[0:00.0–0:07.7] Title card
 My truck sits in the driveway most of the day. So does the gaming PC. That's a lot of idle compute, and idle energy.
 
-[0:08.0–0:22.3] Home: disclaimer + network stats
+[0:07.7–0:21.5] Home: disclaimer + network stats
 IdleWatt is a smart-contract realm on gno.land: a public registry and dashboard for idle compute nodes. Everything you'll see is simulated, with no Tesla or Akash integration yet. It's the coordination layer, built first.
 
-[0:22.3–0:34.4] Node cards
+[0:21.5–0:33.8] Node cards
 Home GPUs, a solar-powered CPU box, and a simulated Cybertruck. Each node lists its hardware, region, power source (grid, solar or Powershare backup) and an hourly rate.
 
-[0:34.4–0:41.2] Register form + generated gnokey command
+[0:33.8–0:40.4] Register form + generated gnokey command
 Anyone can register a node right from the page. The form builds the gnokey transaction, ready to sign.
 
-[0:41.2–0:49.7] Node page + signed heartbeat / parked tx
+[0:40.4–0:48.9] Node page + signed heartbeat / parked tx
 Nodes prove they're alive with signed heartbeats and switch between parked-and-plugged-in and driving. Only the operator's key can do that.
 
-[0:49.7–0:56.7] Simulated job tx + updated node page
+[0:48.9–0:56.0] Simulated job tx + updated node page
 Jobs are logged with a length. The realm computes the earnings from the rate, so nobody can just type in a number.
 
-[0:56.7–1:09.6] Fairness pool + leaderboard
+[0:56.0–1:09.0] Fairness pool + leaderboard
 Fourteen percent of every job goes into a fairness pool, inspired by AtomOne's Nakamoto Bonus. It's split equally across every online node, so the little CPU box gets the same share as the 4090.
 
-[1:09.6–1:21.9] GitHub roadmap + end card
-Next up: Akash provider attestation and payouts over the Gno–Solana bridge. The code and the live realm are linked on screen. Thanks!
+[1:09.0–1:20.6] GitHub roadmap + end card
+Next up: Akash provider attestation and payouts over the bridge between Gno and Solana. The code and the live realm are linked on screen. Thanks!
